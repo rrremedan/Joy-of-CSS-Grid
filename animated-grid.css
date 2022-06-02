@@ -5,7 +5,11 @@
     gap: 1rem;
 
     /* Explicit grid */
-    grid-template-areas: ;
+    grid-template-areas:
+    'a b c d'
+    'l * * e'
+    'k * * F'
+    'j i h g';
 
     grid-template-rows: repeat(4, 25%);
     grid-template-columns: 240px auto auto 240px;
@@ -27,7 +31,7 @@
 }
 .card{
     background-color: rgb(36, 243, 147);
-    animation: cardEntrance; 700ms ease-out;
+    animation: cardEntrance 700ms ease-out;
     animation-fill-mode:backwards;
 }
 .card:nth-child(1) {
@@ -111,5 +115,6 @@
 
 /*... other areas*/
 .card:nth-child(1) {
-    grid-area: *;
+    grid-area: * ;
+    
 }
