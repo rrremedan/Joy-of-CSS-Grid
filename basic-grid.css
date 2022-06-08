@@ -12,5 +12,5 @@
     grid-template-columns:( 12, minmax(240px, 1fr));
 
     /* 4 final */
-    grid-template-columns: repeat(auto-fit, minmax (240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
